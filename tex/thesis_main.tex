@@ -1,8 +1,12 @@
-\documentclass[a4paper,10pt]{report}
+\documentclass[a4paper,11pt]{report}
+\usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{mathtext}
 \usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english,bulgarian]{babel}
+
+\newcommand{\ud}{\,\mathrm{d}}
 
 % TODO: try to use next-gen utf8 
 %\usepackage{fontspec}
@@ -11,12 +15,12 @@
 %\setdefaultlanguage{bulgarian}
 
 % define the title
-\title{Практикум по ИМЯТ}
+\title{Практикум\\по\\Изчислителни методи в ядрените технологии}
 \author{И.~Тонков}
 \date{22.08.2013 г.}
 
 \begin{document}
-% generates the title
+% generate the title
 \maketitle
 % insert the table of contents
 \tableofcontents
@@ -27,5 +31,17 @@
 \section{Използване на Eclipse.}
  И Eclipse и той много готин.
 \chapter{Линейни системи ОДУ}
-Мадафака почва да става много резко.
+Страшно почва да става много резко.
+
+%$\mathbb{R}$
+\begin{equation*}
+\int_a^b f(x)\ud x
+\end{equation*}
+
+%Figure~\ref{white} is an example of Pop-Art.
+%\begin{figure}[!hbtp]
+%\makebox[\textwidth]{\framebox[5cm]{\rule{0pt}{5cm}}}
+%\caption{Five by Five in Centimetres.\label{white}}
+%\end{figure}
+
 \end{document}
